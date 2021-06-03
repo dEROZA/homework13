@@ -19,9 +19,9 @@ public:
 
     float operator[](int idx) {
         switch (idx) {
-        case 0: return x; break;
-        case 1: return y; break;
-        case 2: return z; break;
+        case 0: return x;
+        case 1: return y;
+        case 2: return z;
         default: std::cout << "index error"; return 0;
         }
     }
